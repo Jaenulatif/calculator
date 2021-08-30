@@ -1,0 +1,45 @@
+html {
+    font-family: Arial, Helvetica, sans - serif;
+}
+
+
+.display {
+    background-color: rgb(75, 75, 75);
+    padding: 15px;
+    width: 255px;
+    text-align: right;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+    width: 68px;
+    height: 70px;
+    margin-top: 2px;
+    background-color: rgb(168, 168, 168);
+    font-size: 20px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(139, 139, 139);
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: rgb(109, 109, 109);
+}
+
+
+.fifth-row #r5-1 {
+    width: 140px;
+}
+
+.fourth-row #r4-4 {
+    background-color: yellow;
+    height: 145px;
+}

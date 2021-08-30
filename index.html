@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <table>
+                <tr>
+                    <td colspan="4" class="display"><p id="output">0</p></td>
+                </tr>
+                <tr class="first-row">
+                    <td><button id="r1-1" onclick="clearOutput()">AC</button></td>
+                    <td><button id="r1-2" onclick="clearLastEntry()">CE</button></td>
+                    <td><button id="r1-3" onclick="forDisplay('/')">/</button></td>
+                    <td><button id="r1-4" onclick="forDisplay('*')">*</button></td>
+                </tr>
+                <tr class="second-row">
+                    <td><button id="r2-1" onclick="forDisplay('7')">7</button></td>
+                    <td><button id="r2-2" onclick="forDisplay('8')">8</button></td>
+                    <td><button id="r2-3" onclick="forDisplay('9')">9</button></td>
+                    <td><button id="r2-4" onclick="forDisplay('-')">-</button></td>
+                </tr>
+                <tr class="third-row">
+                    <td><button id="r3-1" onclick="forDisplay('4')">4</button></td>
+                    <td><button id="r3-2" onclick="forDisplay('5')">5</button></td>
+                    <td><button id="r3-3" onclick="forDisplay('6')">6</button></td>
+                    <td><button id="r3-4" onclick="forDisplay('+')">+</button></td>
+                </tr>
+                <tr class="fourth-row">
+                    <td><button id="r4-1" onclick="forDisplay('1')">1</button></td>
+                    <td><button id="r4-2" onclick="forDisplay('2')">2</button></td>
+                    <td><button id="r4-3" onclick="forDisplay('3')">3</button></td>
+                    <td rowspan="2"><button id="r4-4" onclick="result()">=</button></td>
+                </tr>
+                <tr class="fifth-row">
+                    <td colspan="2"><button id="r5-1" onclick="forDisplay('0')">0</button></td>
+                    <td><button id="r5-2" onclick="forDisplay('.')">.</button></td>
+                    
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
